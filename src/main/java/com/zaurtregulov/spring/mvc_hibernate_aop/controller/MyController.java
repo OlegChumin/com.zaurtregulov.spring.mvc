@@ -48,7 +48,8 @@ public class MyController {
         return "employee-info";
     }
 
+    @RequestMapping("/deleteEmployee")
     public String deleteEmployee() {
-        return "redirect:/";
+        return "employee-info";
     }
 }
